@@ -1,0 +1,73 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+BODY {
+  background-color: rgb(33, 53, 85);
+  text-align: center;
+}
+.main {
+  /* margin-top: 80px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: rgb(216, 196, 182);
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.main_div {
+  width: 400px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 20px;
+  background-color: rgb(62, 88, 121);
+  /* border: 1px solid black; */
+}
+.button_div {
+  /* height: 60vh;
+  width: 70vh; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2%;
+  /* border: 1px solid black; */
+}
+.all_button {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  margin: 2%;
+  border: 0px;
+  font-size: 50px;
+  color: rgb(33, 53, 85);
+  background-color: rgb(245, 239, 231);
+}
+.div_opt_btn {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.opt_btn {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+.winner {
+  color: rgb(216, 196, 182);
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.hide {
+  display: none;
+}
